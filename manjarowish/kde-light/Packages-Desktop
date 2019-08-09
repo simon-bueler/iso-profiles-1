@@ -316,7 +316,7 @@ unzip
 #>extra kipi-plugins  # export to various online services
 #>extra hugin         # panorama tool
 plasma5-applets-redshift-control
-plasma5-applets-active-window-control
+#plasma5-applets-active-window-control
 plasma5-applets-netspeed
 plasma5-applets-plasma-pstate
 plasma5-applets-eventcalendar
@@ -578,15 +578,18 @@ plasma-wayland-session
 fuseiso
 smb4k
 audiocd-kio
-plymouth-git
-plymouth-kcm
-jackman-kcm-git
+#plymouth-git
+#plymouth-kcm
+#jackman-kcm-git
 opus-tools
 openh264
 nohang-git
 lmms
 tigervnc
+fpakman
+discord
 ##games
 #megaglest
 #xonotic
 #supertuxkart
+pdfmixtool
