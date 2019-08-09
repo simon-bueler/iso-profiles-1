@@ -1,0 +1,218 @@
+#### EDITION BASE PACKAGES
+
+#---------=> audio
+manjaro-alsa
+manjaro-pulse
+pavucontrol-qt
+pulseaudio-equalizer-ladspa
+pulseaudio-bluetooth
+libcanberra
+libcanberra-pulse
+libcanberra-gstreamer 
+#---------=> network
+avahi
+openssh
+openssl
+cmst
+connman
+pptpclient
+iwd
+openvpn
+openconnect
+openresolv
+bluedevil
+bluez-cups
+nss-mdns
+#lxqt-connman-applet-git
+usb_modeswitch
+#---------=> file management
+lxqt-archiver-git
+android-tools
+android-udev
+gvfs-mtp
+gvfs
+gvfs-afc
+ffmpegthumbnailer
+libgsf
+gvfs-nfs
+gvfs-smb
+gvfs-gphoto2
+gvfs-google
+gvfs-goa
+#---------=> fonts
+freetype2
+noto-fonts               # default font
+terminus-font
+powerline-fonts
+>extra noto-fonts-emoji
+ttf-indic-otf
+ttf-liberation
+>extra ttf-opensans
+# improve responsiveness 
+systemd-swap
+preload
+irqbalance
+nohang-git
+kernel-alive
+perl-file-mimeinfo
+perl-net-dbus
+perl-x11-protocol
+python-xdg
+xdg-user-dirs
+xdg-utils
+#>extra extra-cmake-modules
+#---------=> utilities
+qlipper
+>extra bolt
+>extra fprint
+>extra busybox
+libdvdcss
+dmidecode
+linux-tools
+htop
+inxi
+numlockx
+neofetch
+xsettingsd
+xbindkeys
+xautolock
+xscreensaver
+appimagelauncher
+hddtemp
+jp2a
+mesa-demos
+tree
+wmctrl
+xcb-util-cursor
+xdotool
+dialog
+autorandr
+redshift-qt
+grub-btrfs
+timeshift-autosnap
+#---------=> settings manager
+manjaro-settings-manager
+manjaro-settings-manager-knotifier
+manjaro-zsh-config
+manjaro-hotfixes
+manjaro-base-skel
+manjaro-application-utility
+manjaro-hello
+manjaro-settings-samba
+manjaro-printer
+skanlite
+#---------=> display manager and theme
+sddm
+sddm-kcm
+qt5-virtualkeyboard
+#---------=> kwin window manager
+kwin
+kde-cli-tools
+#plasma-workspace
+#---------=> lxqt core
+lxqt-about
+lxqt-admin
+lxqt-config
+lxqt-globalkeys
+lxqt-notificationd
+lxqt-openssh-askpass
+lxqt-panel
+lxqt-policykit
+lxqt-powermanagement
+lxqt-qtplugin
+lxqt-runner
+lxqt-session
+lxqt-sudo
+lxqt-themes
+libstatgrab
+libsysstat
+pcmanfm-qt
+lximage-qt
+qterminal
+#---------=> edition theming and settings
+kwin-decoration-sierra-breeze-enhanced-git
+kwin-effects-yet-another-magic-lamp
+kwin-scripts-forceblur
+grub-theme-manjaro
+papirus-icon-theme
+kvantum-qt5
+oxygen-icons
+oxygen
+mojave-gtk-theme-git
+gtk-engine-murrine
+gtk3
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-mouse
+xf86-input-void
+xf86-input-synaptics
+xf86-input-wacom
+xf86-input-libinput
+libinput-gestures
+gestures
+qt5-translations
+#---------=> xorg
+xorg-server
+#---------=> applications
+mpv
+youtube-dl
+speedcrunch
+feathernotes-git
+featherpad-git
+pamac-gtk
+pamac-tray-appindicator
+qpdfview
+simplescreenrecorder
+falkon
+qmmp
+trojita
+qbittorrent
+partitionmanager3
+imagewriter
+easystroke
+flashplugin
+poppler-data
+keepassxc
+kdeconnect
+sshfs
+qvkbd
+writer-git
+spice-up-git
+spreadsheet-git
+plank
+gamemode
+systemdgenie
+modem-manager-gui
+gufw
+krfb
+krdc
+freerdp
+>extra libreoffice-fresh
+>extra libmythes
+>extra jdk-openjdk
+>extra jre-openjdk
+>extra firefox
+>extra firefox-extension-https-everywhere 
+>extra firefox-decentraleyes
+>extra firefox-extension-privacybadger 
+>extra firefox-ublock-origin 
+>extra firefox-dark-reader
+>extra firefox-extension-google-search-link-fix
+>extra firefox-extension-keepassxc-browser
+>extra firefox-extension-video-download-helper
+>extra vdhcoapp
+>extra xdman
+#------gst plugins
+gst-libav
+gst-plugins-good
+gst-plugins-base
+gst-plugins-bad
+gst-plugins-ugly
+>extra gst-plugins-espeak
+
+###opt-deps 
+>extra argyllcms
+>extra colord-sane
+>extra easy-rsa
+>extra kio-extras

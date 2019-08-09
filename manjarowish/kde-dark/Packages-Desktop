@@ -56,7 +56,7 @@ manjaro-application-utility
 
 >extra manjaro-settings-samba
 kernel-alive
-
+autorandr
 perl-net-dbus
 perl-x11-protocol
 
@@ -593,3 +593,4 @@ discord
 #xonotic
 #supertuxkart
 pdfmixtool
+pavucontrol-qt
