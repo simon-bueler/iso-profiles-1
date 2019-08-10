@@ -9,6 +9,13 @@ pulseaudio-bluetooth
 libcanberra
 libcanberra-pulse
 libcanberra-gstreamer 
+#------gst plugins
+gst-libav
+gst-plugins-good
+gst-plugins-base
+gst-plugins-bad
+gst-plugins-ugly
+>extra gst-plugins-espeak
 #---------=> network
 avahi
 openssh
@@ -23,7 +30,7 @@ openresolv
 bluedevil
 bluez-cups
 nss-mdns
-#lxqt-connman-applet-git
+lxqt-connman-applet-git
 usb_modeswitch
 #---------=> file management
 lxqt-archiver-git
@@ -105,30 +112,32 @@ skanlite
 sddm
 sddm-kcm
 qt5-virtualkeyboard
+sddm-theme-sugar-candy-git
 #---------=> kwin window manager
 kwin
 kde-cli-tools
 #plasma-workspace
 #---------=> lxqt core
-lxqt-about
-lxqt-admin
-lxqt-config
-lxqt-globalkeys
-lxqt-notificationd
-lxqt-openssh-askpass
-lxqt-panel
-lxqt-policykit
-lxqt-powermanagement
-lxqt-qtplugin
-lxqt-runner
-lxqt-session
-lxqt-sudo
-lxqt-themes
+lxqt-about-git
+lxqt-admin-git
+lxqt-config-git
+lxqt-globalkeys-git
+lxqt-notificationd-git
+lxqt-openssh-askpass-git
+lxqt-panel-git
+lxqt-policykit-git
+lxqt-powermanagement-git
+lxqt-qtplugin-git
+lxqt-runner-git
+lxqt-session-git
+lxqt-sudo-git
+lxqt-themes-git
 libstatgrab
-libsysstat
-pcmanfm-qt
-lximage-qt
-qterminal
+libsysstat-git
+pcmanfm-qt-git
+lximage-qt-git
+qterminal-git
+qps-git
 #---------=> edition theming and settings
 kwin-decoration-sierra-breeze-enhanced-git
 kwin-effects-yet-another-magic-lamp
@@ -203,13 +212,7 @@ freerdp
 >extra firefox-extension-video-download-helper
 >extra vdhcoapp
 >extra xdman
-#------gst plugins
-gst-libav
-gst-plugins-good
-gst-plugins-base
-gst-plugins-bad
-gst-plugins-ugly
->extra gst-plugins-espeak
+
 
 ###opt-deps 
 >extra argyllcms
