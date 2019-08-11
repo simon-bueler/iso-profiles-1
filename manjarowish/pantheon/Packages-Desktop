@@ -286,4 +286,6 @@ appimagelauncher
 #torrential-git
 #tomato-git
 #ping-git
-
+indicator-powersave
+indicator-kdeconnect
+indicator-sensors
