@@ -19,8 +19,8 @@ samba
 usb_modeswitch
 bluez-cups
 ethtool
-
 modem-manager-gui
+
 ## Libraries for Sound/Audio/Video
 alsa-firmware
 alsa-utils
@@ -47,25 +47,12 @@ manjaro-zsh-config
 manjaro-printer
 manjaro-hotfixes
 manjaro-settings-samba
+
 ## Connect Packages
 android-tools
 android-udev
 scrcpy
 
-firefox
->extra firefox-extension-https-everywhere 
->extra firefox-decentraleyes
->extra firefox-extension-privacybadger 
->extra firefox-ublock-origin 
->extra firefox-dark-reader
-firefox-extension-google-search-link-fix
-firefox-extension-keepassxc-browser
-firefox-extension-video-download-helper
-vdhcoapp
-flashplugin
-epiphany-pantheon
-lightdm
-networkmanager
 gvfs
 gvfs-afc
 gvfs-goa
@@ -74,19 +61,22 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-evince
-gnome-settings-daemon-elementary
-discord
-steam-manjaro
-itch
-lutris
-pamac-gtk
-gnome-software-snap
-flatpak
-fwupd 
-snapd
-appimagelauncher
-fpakman
+
+>extra firefox
+>extra firefox-extension-https-everywhere 
+>extra firefox-decentraleyes
+>extra firefox-extension-privacybadger 
+>extra firefox-ublock-origin 
+>extra firefox-dark-reader
+>extra firefox-extension-google-search-link-fix
+>extrafirefox-extension-keepassxc-browser
+>extrafirefox-extension-video-download-helper
+>extra vdhcoapp
+flashplugin
+pepper-flash
+
+
+
 ## Xorg Input Drivers
 xf86-input-synaptics
 xf86-input-elographics
@@ -120,7 +110,9 @@ nohang-git
 kernel-alive
 timeshift-autosnap
 grub-btrfs
+gamemode
 
+##fonts
 otf-raleway
 ttf-dejavu
 ttf-droid
@@ -128,12 +120,14 @@ ttf-liberation
 ttf-opensans
 ttf-indic-otf 
 kvantum-qt5
-## to be added
-#clipped-git
-xcmenu
-file-roller-pantheon
-plank-git
+lightdm
+epiphany-pantheon
+gnome-settings-daemon-elementary
 gnome-bluetooth-pantheon
+file-roller-pantheon
+pantheon-wallpapers
+clipped-git
+plank-git
 gala-git
 granite-git
 cerbere-git
@@ -165,7 +159,7 @@ pantheon-mail-git
 pantheon-session-git
 pantheon-screenshot-git
 pantheon-system-monitor-git
-pantheon-wallpapers
+
 switchboard-git
 switchboard-plug-a11y-git
 switchboard-plug-about-git
@@ -243,7 +237,6 @@ notes-up-git
 nutty-git
 odysseus
 palaura-git
-#ping-git
 quickdocks
 quilter-git
 raddiu-git
@@ -259,9 +252,7 @@ tranqil-git
 translator-git
 tootle-git
 trimdown-git
-#tomato-git
 tomatoapp-bzr
-#torrential-git
 vocal-git
 gamehub
 writer-git
@@ -271,6 +262,20 @@ webwatcher-git
 pdftricks
 simple-scan
 fragments
+xdman
+telegram-desktop
+discord
+steam-manjaro
+itch
+lutris
+pamac-gtk
+gnome-software-snap
+flatpak
+fwupd 
+snapd
+appimagelauncher
+#fpakman
+## to be added
 #terminus-git
 #elements-git
 #ping-git
@@ -278,4 +283,7 @@ fragments
 #image-optimizer-git
 #pantheon-qq-default-settings-git
 #pantheon-workarounds
-gamemode
+#torrential-git
+#tomato-git
+#ping-git
+
