@@ -128,9 +128,6 @@ grub-btrfs
 gamemode
 
 ##fonts
-otf-raleway
-ttf-dejavu
-ttf-droid
 ttf-liberation
 ttf-opensans
 ttf-indic-otf 
@@ -146,9 +143,9 @@ gnome-bluetooth-pantheon
 file-roller-pantheon
 pantheon-wallpapers
 clipped-git
-plank
+plank-git
 gala-git
-granite
+granite-git
 cerbere
 contractor
 elementary-icon-theme-git
@@ -200,21 +197,21 @@ switchboard-plug-security-privacy
 switchboard-plug-sharing
 switchboard-plug-sound
 switchboard-plug-user-accounts
-wingpanel
-wingpanel-indicator-a11y-stable-git
-wingpanel-indicator-bluetooth
-wingpanel-indicator-datetime
+wingpanel-git
+#wingpanel-indicator-a11y-stable-git
+wingpanel-indicator-bluetooth-git
+wingpanel-indicator-datetime-git
 wingpanel-indicator-keyboard-git
 wingpanel-indicator-network-git
 wingpanel-indicator-nightlight-git
-wingpanel-indicator-notifications
-wingpanel-indicator-power
-wingpanel-indicator-privacy-git
+wingpanel-indicator-notifications-git
+wingpanel-indicator-power-git
+#wingpanel-indicator-privacy-git
 wingpanel-indicator-sensors-git
-wingpanel-indicator-session
-wingpanel-indicator-sound
+wingpanel-indicator-session-git
+wingpanel-indicator-sound-git
 wingpanel-indicator-sys-monitor-git
-wingpanel-indicator-weather-git
+#wingpanel-indicator-weather-git
 
 #extra
 agenda-git
@@ -303,6 +300,4 @@ appimagelauncher
 #torrential-git
 #tomato-git
 #ping-git
-indicator-powersave
-indicator-kdeconnect
-indicator-sensors
+kdeconnect
