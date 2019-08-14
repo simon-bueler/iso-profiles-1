@@ -74,7 +74,8 @@ gvfs-smb
 >extra vdhcoapp
 flashplugin
 pepper-flash
-
+ibus
+ibus-typing-booster
 
 
 ## Xorg Input Drivers
@@ -126,11 +127,14 @@ kernel-alive
 timeshift-autosnap
 grub-btrfs
 gamemode
-
+gnome-disk-utility
 ##fonts
+ttf-dejavu
+ttf-droid
 ttf-liberation
 ttf-opensans
-ttf-indic-otf 
+ttf-indic-otf
+ttf-roboto
 terminus-fonts
 evince
 kvantum-qt5
@@ -301,3 +305,19 @@ appimagelauncher
 #tomato-git
 #ping-git
 kdeconnect
+ffmpegthumbnailer
+libgsf 
+libopenraw
+qt5ct
+
+
+
+
+
+
+
+
+
+
+
+
