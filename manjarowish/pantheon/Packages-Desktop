@@ -310,8 +310,8 @@ ffmpegthumbnailer
 libgsf 
 libopenraw
 qt5ct
-
-
+vulkan-icd-loader
+lib32-vulkan-icd-loader
 
 
 
