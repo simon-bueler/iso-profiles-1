@@ -144,6 +144,7 @@ lightdm-slick-greeter
 lightdm-settings
 epiphany-pantheon
 gnome-settings-daemon-elementary
+gnome-settings-daemon-compat
 gnome-bluetooth-pantheon
 file-roller-pantheon
 pantheon-wallpapers
