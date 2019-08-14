@@ -305,7 +305,7 @@ appimagelauncher
 #torrential-git
 #tomato-git
 #ping-git
-kdeconnect
+indicator-kdeconnect
 ffmpegthumbnailer
 libgsf 
 libopenraw
