@@ -163,7 +163,7 @@ pantheon-calendar
 pantheon-calculator
 pantheon-camera
 pantheon-code
-pantheon-default-settings
+#pantheon-default-settings
 pantheon-files
 pantheon-dpms-helper
 pantheon-agent-geoclue2
