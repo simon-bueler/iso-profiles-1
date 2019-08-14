@@ -205,7 +205,7 @@ switchboard-plug-sharing
 switchboard-plug-sound
 switchboard-plug-user-accounts
 wingpanel-git
-#wingpanel-indicator-a11y-stable-git
+wingpanel-indicator-a11y-stable-git
 wingpanel-indicator-bluetooth-git
 wingpanel-indicator-datetime-git
 wingpanel-indicator-keyboard-git
@@ -307,6 +307,8 @@ appimagelauncher
 #torrential-git
 #tomato-git
 #ping-git
+rush-git
+gcleaner-git
 indicator-kdeconnect
 ffmpegthumbnailer
 libgsf 
