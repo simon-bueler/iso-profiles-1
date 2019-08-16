@@ -68,7 +68,7 @@ gvfs-smb
 >extra firefox-decentraleyes
 >extra firefox-extension-privacybadger 
 >extra firefox-ublock-origin 
-#>extra firefox-dark-reader
+>extra firefox-dark-reader
 >extra firefox-extension-google-search-link-fix
 >extrafirefox-extension-keepassxc-browser
 >extrafirefox-extension-video-download-helper
