@@ -148,7 +148,6 @@ evince
 kvantum-qt5
 lightdm
 lightdm-slick-greeter
-lightdm-settings
 epiphany-pantheon
 gnome-settings-daemon-elementary
 gnome-settings-daemon-compat
@@ -164,7 +163,6 @@ elementary-icon-theme-git
 elementary-wallpapers-git
 elementary-icon-theme-git
 gtk-theme-elementary-git
-lightdm-gtk-greeter
 light-locker-settings
 sound-theme-elementary-git
 pantheon-applications-menu-git
