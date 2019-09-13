@@ -197,6 +197,7 @@ gufw
 krfb
 krdc
 freerdp
+guiscrcpy
 >extra libreoffice-fresh
 >extra libmythes
 >extra jdk-openjdk

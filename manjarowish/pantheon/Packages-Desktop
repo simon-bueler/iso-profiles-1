@@ -47,7 +47,8 @@ manjaro-zsh-config
 manjaro-printer
 manjaro-hotfixes
 manjaro-settings-samba
-
+manjaro-settings-manager
+systemd-ui
 ## Connect Packages
 android-tools
 android-udev

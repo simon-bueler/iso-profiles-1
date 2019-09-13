@@ -586,8 +586,13 @@ openh264
 nohang-git
 lmms
 tigervnc
-fpakman
+bauh
 discord
+guiscrcpy
+anbox-git
+anbox-image-gapps
+anbox-bridge
+anbox-modules-dkms-git
 ##games
 #megaglest
 #xonotic
