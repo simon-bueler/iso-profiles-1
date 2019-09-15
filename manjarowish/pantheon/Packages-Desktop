@@ -53,6 +53,7 @@ systemd-ui
 android-tools
 android-udev
 scrcpy
+guiscrcpy
 gtk-engines
 gtk-engine-murrine
 gvfs

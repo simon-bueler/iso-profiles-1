@@ -33,7 +33,7 @@ gcc-libs
 gettext
 glibc
 grep
-grub
+grub-vanilla
 gzip
 haveged
 inetutils
@@ -91,3 +91,4 @@ which
 #wpa_supplicant
 xfsprogs
 zsh
+base-devel

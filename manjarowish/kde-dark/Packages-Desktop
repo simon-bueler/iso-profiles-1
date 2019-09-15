@@ -406,6 +406,8 @@ flashplugin
 firefox-extension-google-search-link-fix
 firefox-extension-keepassxc-browser
 firefox-extension-video-download-helper
+firefox-extension-xdm-browser-monitor
+firefox-extension-plasma-integration
 vdhcoapp
 yakuake
 kmouth
@@ -599,3 +601,4 @@ anbox-modules-dkms-git
 #supertuxkart
 pdfmixtool
 pavucontrol-qt
+corectrl-git

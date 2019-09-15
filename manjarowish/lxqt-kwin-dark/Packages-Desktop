@@ -30,10 +30,19 @@ openresolv
 bluedevil
 bluez-cups
 nss-mdns
-lxqt-connman-applet-git
+#lxqt-connman-applet-git
 usb_modeswitch
 #---------=> file management
 lxqt-archiver-git
+#------opt deps for archiver
+unrar
+unzip
+p7zip
+unace
+lrzip
+lzop
+zip
+
 android-tools
 android-udev
 gvfs-mtp
@@ -146,7 +155,6 @@ grub-theme-manjaro
 papirus-icon-theme
 kvantum-qt5
 oxygen-icons
-oxygen
 mojave-gtk-theme-git
 gtk-engine-murrine
 gtk3
@@ -173,7 +181,6 @@ pamac-gtk
 pamac-tray-appindicator
 qpdfview
 simplescreenrecorder
-falkon
 qmmp
 trojita
 qbittorrent
@@ -186,9 +193,6 @@ keepassxc
 kdeconnect
 sshfs
 qvkbd
-writer-git
-spice-up-git
-spreadsheet-git
 plank
 gamemode
 systemdgenie
@@ -197,7 +201,9 @@ gufw
 krfb
 krdc
 freerdp
-guiscrcpy
+guiscrcpy-git
+corectrl-git
+fancontrol-gui-git
 >extra libreoffice-fresh
 >extra libmythes
 >extra jdk-openjdk
@@ -213,10 +219,11 @@ guiscrcpy
 >extra firefox-extension-video-download-helper
 >extra vdhcoapp
 >extra xdman
-
+>extra firefox-extension-xdm-browser-monitor
 
 ###opt-deps 
 >extra argyllcms
 >extra colord-sane
 >extra easy-rsa
 >extra kio-extras
+>extra vulkan-tools
