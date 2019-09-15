@@ -160,7 +160,7 @@ youtube-dl
 #featherpad-git
 pamac-gtk
 pamac-tray-appindicator
-qpdfview
+#qpdfview
 simplescreenrecorder
 qmmp
 trojita

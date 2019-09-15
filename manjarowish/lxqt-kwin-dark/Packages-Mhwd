@@ -1,8 +1,8 @@
 KERNEL-bbswitch
 KERNEL-broadcom-wl
 #KERNEL-r8168
-KERNEL-zfs
-zfs-utils
+#KERNEL-zfs
+#zfs-utils
 #KERNEL-rt3562sta
 KERNEL-virtualbox-guest-modules
 libva-intel-driver
@@ -18,21 +18,21 @@ mesa-vdpau
 >multilib lib32-primus
 #>nonfree_default catalyst-utils
 #>nonfree_default KERNEL-catalyst
->nonfree_default KERNEL-nvidia
->nonfree_default KERNEL-nvidia-340xx
->nonfree_default KERNEL-nvidia-390xx
->nonfree_default nvidia-340xx-utils
->nonfree_default nvidia-390xx-utils
->nonfree_default nvidia-utils
+#>nonfree_default KERNEL-nvidia
+#>nonfree_default KERNEL-nvidia-340xx
+#>nonfree_default KERNEL-nvidia-390xx
+#>nonfree_default nvidia-340xx-utils
+#>nonfree_default nvidia-390xx-utils
+#>nonfree_default nvidia-utils
 #>nonfree_multilib lib32-catalyst-utils
->nonfree_multilib lib32-nvidia-utils
->nonfree_multilib lib32-nvidia-340xx-utils
->nonfree_multilib lib32-nvidia-390xx-utils
+#>nonfree_multilib lib32-nvidia-utils
+#>nonfree_multilib lib32-nvidia-340xx-utils
+#>nonfree_multilib lib32-nvidia-390xx-utils
 opencl-mesa
 open-vm-tools
 pangox-compat
-primus
-bumblebee
+#primus
+#bumblebee
 virtualbox-guest-utils
 vulkan-radeon
 >multilib lib32-vulkan-radeon
