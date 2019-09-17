@@ -30,10 +30,8 @@ openresolv
 bluedevil
 bluez-cups
 nss-mdns
-#lxqt-connman-applet-git
 usb_modeswitch
 #---------=> file management
-#lxqt-archiver-git
 android-file-transfer
 android-tools
 android-udev
@@ -58,7 +56,7 @@ perl-x11-protocol
 python-xdg
 xdg-user-dirs
 xdg-utils
-#>extra extra-cmake-modules
+>extra extra-cmake-modules
 #---------=> utilities
 qlipper
 >extra bolt
@@ -108,34 +106,29 @@ kwin
 kde-cli-tools
 #plasma-workspace
 #---------=> lxqt core
-lxqt-about-git
-lxqt-admin-git
-lxqt-config-git
-lxqt-globalkeys-git
-lxqt-notificationd-git
-lxqt-openssh-askpass-git
-lxqt-panel-git
-lxqt-policykit-git
-lxqt-powermanagement-git
-lxqt-qtplugin-git
-lxqt-runner-git
-lxqt-session-git
-lxqt-sudo-git
-lxqt-themes-git
+lxqt-about
+lxqt-admin
+lxqt-config
+lxqt-globalkeys
+lxqt-notificationd
+lxqt-openssh-askpass
+lxqt-panel
+lxqt-policykit
+lxqt-powermanagement
+lxqt-qtplugin
+lxqt-runner
+lxqt-session
+lxqt-sudo
+lxqt-themes
 libstatgrab
-libsysstat-git
-#pcmanfm-qt-git
-#lximage-qt-git
-#qterminal-git
-qps-git
+libsysstat
+qps
 #---------=> edition theming and settings
 kwin-decoration-sierra-breeze-enhanced-git
 kwin-effects-yet-another-magic-lamp
 kwin-scripts-forceblur
 grub-theme-manjaro
-papirus-icon-theme
 kvantum-qt5
-oxygen-icons
 mojave-gtk-theme-git
 gtk-engine-murrine
 gtk3
@@ -155,12 +148,8 @@ xorg-server
 #---------=> applications
 mpv
 youtube-dl
-#speedcrunch
-#feathernotes-git
-#featherpad-git
 pamac-gtk
 pamac-tray-appindicator
-#qpdfview
 simplescreenrecorder
 qmmp
 trojita
@@ -173,7 +162,6 @@ poppler-data
 keepassxc
 kdeconnect
 sshfs
-#qvkbd
 plank
 gamemode
 systemdgenie
@@ -203,30 +191,30 @@ fancontrol-gui-git
 >extra firefox-extension-xdm-browser-monitor
 
 #--------->>coreapps
-libcprime-git
-libcsys-git
-libarchive-qt-git
-coreaction-git
-corearchiver-git
-corehunt-git
-coreimage-git
-corepins-git
-coreplayer-git
-corefm-git
-coregarage-git
-corepad-git
-coreuniverse-git
-coreterminal-git
-corestuff-git
-corestats-git
-coreinfo-git
-corekeyboard-git
-corepaint-git
-corerenamer-git
-coreshot-git
-coretime-git
-corepdf-git
-coreapps-git
+libcprime
+libcsys
+libarchive-qt
+coreaction
+corearchiver
+corehunt
+coreimage
+corepins
+coreplayer
+corefm
+coregarage
+corepad
+coreuniverse
+coreterminal
+corestuff
+corestats
+coreinfo
+corekeyboard
+corepaint
+corerenamer
+coreshot
+coretime
+corepdf
+coreapps
 ###opt-deps 
 >extra argyllcms
 >extra colord-sane
