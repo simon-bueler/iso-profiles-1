@@ -6,6 +6,7 @@ manjaro-pulse
 pavucontrol-qt
 pulseaudio-equalizer-ladspa
 pulseaudio-bluetooth
+pulseaudio-ctl
 libcanberra
 libcanberra-pulse
 libcanberra-gstreamer 
@@ -82,17 +83,14 @@ xcb-util-cursor
 xdotool
 dialog
 autorandr
-redshift-qt
+redshift
 grub-btrfs
 timeshift-autosnap
 #---------=> settings manager
 manjaro-settings-manager
-manjaro-settings-manager-knotifier
 manjaro-zsh-config
 manjaro-hotfixes
 manjaro-base-skel
-manjaro-application-utility
-manjaro-hello
 manjaro-settings-samba
 manjaro-printer
 skanlite
@@ -106,13 +104,11 @@ kwin
 kde-cli-tools
 #plasma-workspace
 #---------=> lxqt core
-lxqt-about
 lxqt-admin
 lxqt-config
 lxqt-globalkeys
 lxqt-notificationd
 lxqt-openssh-askpass
-lxqt-panel
 lxqt-policykit
 lxqt-powermanagement
 lxqt-qtplugin
@@ -120,8 +116,6 @@ lxqt-runner
 lxqt-session
 lxqt-sudo
 lxqt-themes
-libstatgrab
-libsysstat
 qps
 #---------=> edition theming and settings
 kwin-decoration-sierra-breeze-enhanced-git
@@ -146,10 +140,11 @@ qt5-translations
 #---------=> xorg
 xorg-server
 #---------=> applications
+meteo-qt
 mpv
 youtube-dl
 pamac-gtk
-pamac-tray-appindicator
+pamac-qt
 simplescreenrecorder
 qmmp
 trojita
