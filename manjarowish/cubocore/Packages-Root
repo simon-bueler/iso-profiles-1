@@ -1,5 +1,4 @@
 >i686 archlinux32-keyring
->manjaro manjaro-release
 >multilib gcc-libs-multilib
 acpi
 acpid
