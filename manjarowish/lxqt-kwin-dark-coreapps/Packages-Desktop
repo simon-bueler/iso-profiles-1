@@ -165,6 +165,7 @@ gufw
 krfb
 krdc
 freerdp
+filelight
 guiscrcpy-git
 corectrl-git
 fancontrol-gui-git
@@ -180,8 +181,8 @@ fancontrol-gui-git
 >extra firefox-dark-reader
 >extra firefox-extension-google-search-link-fix
 >extra firefox-extension-keepassxc-browser
->extra firefox-extension-video-download-helper
->extra vdhcoapp
+#>extra firefox-extension-video-download-helper
+#>extra vdhcoapp
 >extra xdman
 >extra firefox-extension-xdm-browser-monitor
 
