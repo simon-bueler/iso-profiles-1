@@ -195,7 +195,7 @@ corearchiver
 corehunt
 coreimage
 corepins
-coreplayer
+#coreplayer
 corefm
 coregarage
 corepad

@@ -1,5 +1,5 @@
 calamares-git
->manjaro grub-theme-live-manjaro
+grub-theme-live-manjaro
 gsmartcontrol
 manjaro-architect
 manjaro-live-skel
@@ -7,6 +7,4 @@ manjaro-live-systemd
 mkinitcpio-nfs-utils
 nbd
 squashfs-tools
-clonezilla
-mhwd-chroot
-testdisk
+manjaro-hello
