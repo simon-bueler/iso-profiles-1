@@ -32,37 +32,26 @@ bluedevil
 bluez-cups
 nss-mdns
 usb_modeswitch
-#---------=> file management
-android-file-transfer
-android-tools
-android-udev
 #---------=> fonts
 freetype2
 noto-fonts               # default font
 terminus-font
 powerline-fonts
->extra noto-fonts-emoji
 ttf-indic-otf
 ttf-liberation
+>extra noto-fonts-emoji
 >extra ttf-opensans
-# improve responsiveness 
+#---------=> improve responsiveness 
 systemd-swap
 preload
 irqbalance
 nohang-git
 kernel-alive
-perl-file-mimeinfo
-perl-net-dbus
-perl-x11-protocol
-python-xdg
-xdg-user-dirs
-xdg-utils
->extra extra-cmake-modules
 #---------=> utilities
-qlipper
 >extra bolt
 >extra fprint
 >extra busybox
+>extra extra-cmake-modules
 libdvdcss
 dmidecode
 linux-tools
@@ -73,7 +62,6 @@ xsettingsd
 xbindkeys
 xautolock
 xscreensaver
-appimagelauncher
 hddtemp
 jp2a
 mesa-demos
@@ -82,8 +70,16 @@ wmctrl
 xcb-util-cursor
 xdotool
 dialog
+gamemode
+perl-file-mimeinfo
+perl-net-dbus
+perl-x11-protocol
+python-xdg
+xdg-user-dirs
+xdg-utils
 autorandr
 redshift
+qlipper
 grub-btrfs
 timeshift-autosnap
 #---------=> settings manager
@@ -103,29 +99,16 @@ sddm-theme-sugar-candy-git
 kwin
 kde-cli-tools
 #plasma-workspace
-#---------=> lxqt core
-lxqt-admin
-lxqt-config
-lxqt-globalkeys
-lxqt-notificationd
-lxqt-openssh-askpass
-lxqt-policykit
-lxqt-powermanagement
-lxqt-qtplugin
-lxqt-runner
-lxqt-session
-lxqt-sudo
-lxqt-themes
-qps
-#---------=> edition theming and settings
 kwin-decoration-sierra-breeze-enhanced-git
 kwin-effects-yet-another-magic-lamp
 kwin-scripts-forceblur
+#---------=> edition theming and settings
 grub-theme-manjaro
 kvantum-qt5
 mojave-gtk-theme-git
 gtk-engine-murrine
 gtk3
+#---------+> input and gesture support
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
@@ -135,40 +118,86 @@ xf86-input-synaptics
 xf86-input-wacom
 xf86-input-libinput
 libinput-gestures
-gestures
-qt5-translations
+libinput_gestures_qt
+easystroke
+
 #---------=> xorg
 xorg-server
-#---------=> applications
-meteo-qt
-mpv
-youtube-dl
-pamac-gtk
-pamac-qt
-simplescreenrecorder
-qmmp
-thunderbird
-qbittorrent
-partitionmanager3
-imagewriter
-easystroke
-flashplugin
-poppler-data
-keepassxc
+
+#---------=> lxqt core
+lxqt-admin
+lxqt-config
+lxqt-globalkeys
+lxqt-notificationd
+lxqt-openssh-askpass
+lxqt-policykit
+lxqt-powermanagement
+lxqt-qtplugin
+lxqt-session
+lxqt-sudo
+lxqt-themes
+qps
+qt5-translations
+#--------->>coreapps
+libcprime
+libcsys
+libarchive-qt
+coreaction
+corearchiver
+corehunt
+coreimage
+corepins
+corefm
+coregarage
+corepad
+coreuniverse
+coreterminal
+corestuff
+corestats
+coreinfo
+corekeyboard
+corepaint
+corerenamer
+coreshot
+coretime
+corepdf
+#coreplayer
+#---------=> android and file transfer management
+android-file-transfer
+android-tools
+android-udev
 kdeconnect
 sshfs
+guiscrcpy
+smb4k
+nitroshare
+#---------=> applications
 plank
-gamemode
+meteo-qt
+keepassxc
+qmmp
+mpv
+qytdl
+youtube-dl
+simplescreenrecorder
+qbittorrent
+filelight
+partitionmanager3
+imagewriter
+woeusb
 systemdgenie
-modem-manager-gui
-gufw
 krfb
 krdc
 freerdp
-filelight
-guiscrcpy-git
-corectrl-git
-fancontrol-gui-git
+corectrl
+fancontrol-gui
+appimagelauncher
+pamac-qt
+pamac-gtk
+modem-manager-gui
+>extra gufw
+>extra flashplugin
+>extra thunderbird
 >extra libreoffice-fresh
 >extra libmythes
 >extra jdk-openjdk
@@ -185,33 +214,8 @@ fancontrol-gui-git
 #>extra vdhcoapp
 >extra xdman
 >extra firefox-extension-xdm-browser-monitor
-
-#--------->>coreapps
-libcprime
-libcsys
-libarchive-qt
-coreaction
-corearchiver
-corehunt
-coreimage
-corepins
-#coreplayer
-corefm
-coregarage
-corepad
-coreuniverse
-coreterminal
-corestuff
-corestats
-coreinfo
-corekeyboard
-corepaint
-corerenamer
-coreshot
-coretime
-corepdf
-coreapps
 ###opt-deps 
+>extra poppler-data
 >extra argyllcms
 >extra colord-sane
 >extra easy-rsa
