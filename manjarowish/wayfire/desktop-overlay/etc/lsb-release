@@ -1,4 +1,4 @@
-DISTRIB_ID=CubocoreLinux
+DISTRIB_ID=WayfireLinux
 DISTRIB_RELEASE=Rolling
 DISTRIB_CODENAME=by_Librewish
-DISTRIB_DESCRIPTION="Cubocore Linux"
+DISTRIB_DESCRIPTION="Wayfire Linux"
