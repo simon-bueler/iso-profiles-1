@@ -91,7 +91,7 @@ which
 #wpa_supplicant
 xfsprogs
 zsh
-base-devel
+>extra base-devel
 linux-tools
 #---------=> improve responsiveness 
 systemd-swap
