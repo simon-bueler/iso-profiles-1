@@ -1,0 +1,242 @@
+#### EDITION BASE PACKAGES
+wayfire-default-settings
+#---------=> audio
+manjaro-alsa
+manjaro-pulse
+pavucontrol
+pulseaudio-equalizer-ladspa
+pulseaudio-alsa
+pulseaudio-modules-bt-git
+libldac
+pulseaudio-ctl
+pulseaudio-jack
+libcanberra
+libcanberra-pulse
+libcanberra-gstreamer 
+fluidsynth
+playerctl
+#---------=> video
+gst-libav
+gst-plugins-good
+gst-plugins-base
+gst-plugins-bad
+gst-plugins-ugly
+#>extra libva-vdpau-driver
+#>extra libva-intel-driver
+#>extra libva-mesa-driver
+#---------=> fonts
+freetype2
+terminus-font
+powerline-fonts
+ttf-liberation
+ttf-indic-otf
+ttf-lohit-fonts
+#---------+> input and gesture support
+#xf86-input-synaptics
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-mouse
+xf86-input-void
+xf86-input-joystick
+xf86-input-mtrack
+xf86-input-wacom
+xf86-input-libinput
+evdev-right-click-emulation
+libinput-gestures
+gestures
+#---------=> xorg
+xorg-server-xwayland 
+xorg-xhost
+
+#---------=> network
+avahi
+openssh
+openssl
+openresolv
+openvpn
+openconnect
+pptpclient
+wpa_supplicant
+#iwd
+connman
+pacrunner
+ofono
+neard
+bluez-cups
+nss-mdns
+usb_modeswitch
+wds
+modem-manager-gui
+cmst
+blueberry
+
+#---------=> settings manager
+manjaro-settings-manager
+manjaro-zsh-config
+manjaro-hotfixes
+manjaro-base-skel
+>extra manjaro-settings-samba
+>extra manjaro-printer
+>extra simple-scan
+
+#---------=> edition theming and settings
+grub-theme-manjaro
+kvantum-qt5
+qt5ct
+gtk-engine-murrine
+gtk3
+xcursor-breeze
+papirus-maia-icon-theme
+matcha-gtk-theme
+kvantum-theme-matcha
+
+#--------=> package management
+pamac-gtk
+#appimagelauncher
+#bauh
+#snapd
+#flatpak
+#fwupd
+#pamac-snap-plugin 
+#---------=> display manager and theme
+sddm
+simplicity-sddm-theme-git
+qt5-virtualkeyboard
+#---------=> WayfireWM
+wayfire-
+wf-config
+wlroots
+wayfire-plugins-extra
+wcm
+wf-recorder-git
+wf-osk-git
+wf-shell
+gtk-layer-shell
+
+
+
+#-----------=> wayland support
+clipman
+wofi-hg
+bemenu-dmenu
+grim
+slurp
+mako
+swaylock
+polkit-gnome
+wdisplays-git
+kanshi
+brightnessctl
+redshift-wlr-gamma-control-git
+egl-wayland
+qt5-wayland
+
+
+#---------=> utilities
+#>extra bolt
+#>extra fprint
+#>extra fingerprint-gui
+libdvdcss
+dmidecode
+inxi
+neofetch
+htop
+mesa-demos
+perl-file-mimeinfo
+xdg-user-dirs-gtk
+xdg-utils
+xdg-su
+grub-btrfs
+timeshift-autosnap
+
+#---------=> android and file transfer management
+android-tools
+android-udev
+
+###opt-deps 
+gvfs
+gvfs-mtp
+gvfs-afc
+>extra gvfs-gphoto2
+>extra gvfs-goa
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra gvfs-google
+
+#---------=> applications
+gedit
+nautilus
+file-roller
+eog
+evince
+gnome-terminal-fedora
+lollypop
+totem
+firefox
+xdman
+>extra nautilus-bluetooth
+>extra nautilus-empty-file
+>extra nautilus-image-converter
+>extra nautilus-sendto
+>extra nautilus-share
+#>extra nautilus-terminal
+>extra nautilus-admin
+>extra gnome-contacts
+>extra gnome-clocks
+>extra gnome-calculator
+>extra gnome-boxes
+>extra gnome-passwordsafe
+>extra gnome-weather
+>extra gnome-maps
+>extra gnome-todo
+>extra gnome-notes
+>extra gnome-sound-recorder
+>extra gnome-disk-utility
+>extra gnome-music
+>extra gnome-photos
+>extra gnome-books
+>extra gnome-builder
+>extra gnome-dictionary
+>extra gnome-documents
+>extra drawing
+>extra evolution
+>extra shortwave
+>extra eog-plugins
+>extra grilo-plugins
+>extra unrar
+>extra unace
+>extra p7zip
+>extra poppler-data
+>extra colord-sane
+>extra gedit-plugins
+>extra cheese
+>extra fragments
+>extra remmina
+>extra freerdp
+>extra gnomecast
+>extra guiscrcpy
+>extra lanshare
+>extra calls
+>extra purism-chatty
+>extra stacer
+>extra transmageddon
+>extra qytdl
+>extra youtube-dl
+>extra imagewriter
+>extra obs-studio
+>extra wlrobs-hg
+>extra flashplugin
+>extra firefox-extension-https-everywhere 
+>extra firefox-decentraleyes
+>extra firefox-extension-privacybadger 
+>extra firefox-ublock-origin 
+>extra firefox-dark-reader
+>extra firefox-extension-google-search-link-fix
+>extra firefox-extension-xdm-browser-monitor
+>extra libreoffice-fresh
+>extra libmythes
+#>extra kodi-wayland
+#>extra gnome-calendar
+#>extra kdeconnect
+#>extra sshfs

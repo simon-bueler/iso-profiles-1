@@ -21,17 +21,23 @@ gst-plugins-ugly
 avahi
 openssh
 openssl
-cmst
-connman
-pptpclient
-iwd
+openresolv
 openvpn
 openconnect
-openresolv
+pptpclient
+wpa_supplicant
+#iwd
+cmst
+connman
+pacrunner
+ofono
+neard
 bluedevil
 bluez-cups
 nss-mdns
 usb_modeswitch
+wds
+modem-manager-gui
 #---------=> fonts
 freetype2
 noto-fonts               # default font
@@ -123,7 +129,7 @@ easystroke
 
 #---------=> xorg
 xorg-server
-
+xorg-xhost
 #---------=> lxqt core
 lxqt-admin
 lxqt-config
@@ -170,7 +176,7 @@ kdeconnect
 sshfs
 guiscrcpy
 smb4k
-nitroshare
+lanshare
 #---------=> applications
 plank
 meteo-qt
@@ -178,6 +184,7 @@ keepassxc
 audacious-qt5
 audacious-plugins-qt5
 mpv
+smplayer
 qytdl
 youtube-dl
 simplescreenrecorder
@@ -192,10 +199,8 @@ freerdp
 corectrl
 fancontrol-gui
 appimagelauncher
-pamac-qt
 pamac-gtk
-modem-manager-gui
->extra gufw
+#>extra gufw
 >extra flashplugin
 >extra thunderbird
 >extra libreoffice-fresh
@@ -221,3 +226,6 @@ modem-manager-gui
 >extra easy-rsa
 >extra kio-extras
 >extra vulkan-tools
+>extra libva-vdpau-driver
+>extra libva-intel-driver
+>extra libva-mesa-driver

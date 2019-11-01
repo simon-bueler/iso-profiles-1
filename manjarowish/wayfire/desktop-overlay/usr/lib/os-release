@@ -1,0 +1,8 @@
+NAME="Cubocore Linux"
+ID=Cubocore
+ID_LIKE=arch
+PRETTY_NAME="Cubocore Linux"
+ANSI_COLOR="1;32"
+HOME_URL="https://cubocore,gitlab.io/"
+SUPPORT_URL="https://cubocore.gitlab.io/"
+BUG_REPORT_URL="https://gitlab.com/groups/cubocore/-/issues/"
