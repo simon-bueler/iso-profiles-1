@@ -175,12 +175,19 @@ lollypop
 totem
 firefox
 xdman
+flashplugin
+firefox-extension-https-everywhere 
+firefox-decentraleyes
+firefox-extension-privacybadger 
+firefox-ublock-origin 
+firefox-dark-reader
+firefox-extension-google-search-link-fix
+firefox-extension-xdm-browser-monitor
 >extra nautilus-bluetooth
 >extra nautilus-empty-file
 >extra nautilus-image-converter
 >extra nautilus-sendto
 >extra nautilus-share
-#>extra nautilus-terminal
 >extra nautilus-admin
 >extra gnome-contacts
 >extra gnome-clocks
@@ -196,9 +203,14 @@ xdman
 >extra gnome-music
 >extra gnome-photos
 >extra gnome-books
->extra gnome-builder
 >extra gnome-dictionary
 >extra gnome-documents
+>extra gnome-power-manager
+>extra gnome-user-share
+>extra gnome-color-manager
+>extra gnome-nettool
+>extra gnome-podcasts
+>extra gnome-logs
 >extra drawing
 >extra evolution
 >extra shortwave
@@ -214,7 +226,6 @@ xdman
 >extra fragments
 >extra remmina
 >extra freerdp
-#>extra gnomecast
 >extra guiscrcpy
 >extra lanshare
 >extra calls
@@ -226,17 +237,44 @@ xdman
 >extra imagewriter
 >extra obs-studio
 >extra wlrobs-hg
->extra flashplugin
->extra firefox-extension-https-everywhere 
->extra firefox-decentraleyes
->extra firefox-extension-privacybadger 
->extra firefox-ublock-origin 
->extra firefox-dark-reader
->extra firefox-extension-google-search-link-fix
->extra firefox-extension-xdm-browser-monitor
 >extra libreoffice-fresh
 >extra libmythes
+>extra nmap
+>extra net-tools
+>extra argyllcms
+#>extra gnomecast
+#>extra nautilus-terminal
 #>extra kodi-wayland
 #>extra gnome-calendar
 #>extra kdeconnect
 #>extra sshfs
+#>extra buoh
+#>extra baobab
+#>extra gnome-builder
+#>extra gnome-code-assistance
+#-----------=>games
+>extra aisleriot
+>extra gnuchess
+>extra atomix
+>extra five-or-more
+>extra four-in-a-row
+>extra hitori
+>extra iagno
+>extra lightsoff
+>extra quadrapassel
+>extra swell-foop
+>extra tali
+>extra gnome-chess
+>extra gnome-mahjongg
+>extra gnome-2048
+>extra gnome-klotski
+>extra gnome-mines
+>extra gnome-nibbles
+>extra gnome-robots
+>extra gnome-sudoku
+>extra gnome-taquin
+>extra gnome-tetravex
+>extra teeworlds
+>extra minetest
+>extra mari0
+
