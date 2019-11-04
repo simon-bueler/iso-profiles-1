@@ -26,6 +26,7 @@ gst-plugins-ugly
 #>extra libva-mesa-driver
 #---------=> fonts
 freetype2
+noto-fonts
 terminus-font
 powerline-fonts
 ttf-liberation
@@ -43,8 +44,8 @@ xf86-input-mtrack
 xf86-input-wacom
 xf86-input-libinput
 evdev-right-click-emulation
-libinput-gestures
-gestures
+>extra libinput-gestures
+>extra gestures
 #---------=> xorg
 xorg-server-xwayland 
 xorg-xhost
@@ -63,7 +64,7 @@ connman
 pacrunner
 ofono
 neard
-bluez-cups
+>extra bluez-cups
 nss-mdns
 usb_modeswitch
 wds
@@ -89,7 +90,7 @@ gtk3
 xcursor-breeze
 papirus-maia-icon-theme
 matcha-gtk-theme
-kvantum-theme-matcha
+kvantum-theme-matchama
 
 #--------=> package management
 pamac-gtk
@@ -101,7 +102,7 @@ pamac-gtk
 #pamac-snap-plugin 
 #---------=> display manager and theme
 sddm
-simplicity-sddm-theme-git
+sddm-theme-matcha
 qt5-virtualkeyboard
 #---------=> WayfireWM
 wayfire
@@ -149,7 +150,7 @@ xdg-utils
 xdg-su
 grub-btrfs
 timeshift-autosnap
-accountsservice
+#accountsservice
 #---------=> android and file transfer management
 android-tools
 android-udev
@@ -173,16 +174,18 @@ evince
 gnome-terminal-fedora
 lollypop
 totem
-firefox
-xdman
-flashplugin
-firefox-extension-https-everywhere 
-firefox-decentraleyes
-firefox-extension-privacybadger 
-firefox-ublock-origin 
-firefox-dark-reader
-firefox-extension-google-search-link-fix
-firefox-extension-xdm-browser-monitor
+>basic epiphany
+>extra gufw
+>extra firefox
+>extra xdman
+>extra flashplugin
+>extra firefox-extension-https-everywhere 
+>extra firefox-decentraleyes
+>extra firefox-extension-privacybadger 
+>extra firefox-ublock-origin 
+>extra firefox-dark-reader
+>extra firefox-extension-google-search-link-fix
+>extra firefox-extension-xdm-browser-monitor
 >extra nautilus-bluetooth
 >extra nautilus-empty-file
 >extra nautilus-image-converter
@@ -232,7 +235,7 @@ firefox-extension-xdm-browser-monitor
 >extra purism-chatty
 >extra stacer
 >extra transmageddon
->extra qytdl
+>extra gydl-git
 >extra youtube-dl
 >extra imagewriter
 >extra obs-studio
@@ -242,6 +245,11 @@ firefox-extension-xdm-browser-monitor
 >extra nmap
 >extra net-tools
 >extra argyllcms
+>extra pitivi
+>extra brasero
+>extra gimp
+>extra gcolor3
+>extra meld
 #>extra gnomecast
 #>extra nautilus-terminal
 #>extra kodi-wayland
@@ -255,26 +263,10 @@ firefox-extension-xdm-browser-monitor
 #-----------=>games
 >extra aisleriot
 >extra gnuchess
->extra atomix
->extra five-or-more
->extra four-in-a-row
->extra hitori
->extra iagno
->extra lightsoff
 >extra quadrapassel
->extra swell-foop
->extra tali
 >extra gnome-chess
 >extra gnome-mahjongg
->extra gnome-2048
 >extra gnome-klotski
 >extra gnome-mines
 >extra gnome-nibbles
->extra gnome-robots
->extra gnome-sudoku
->extra gnome-taquin
->extra gnome-tetravex
->extra teeworlds
->extra minetest
->extra mari0
 
