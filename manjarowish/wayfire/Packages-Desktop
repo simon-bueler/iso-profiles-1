@@ -257,13 +257,9 @@ fragments
 >extra wlrobs-hg
 >extra libreoffice-fresh
 >extra libmythes
->extra nmap
 >extra net-tools
 >extra argyllcms
->extra audacity
->extra pitivi
 >extra brasero
->extra gimp
 >extra gcolor3
 >extra meld
 #>extra gnomecast
@@ -276,6 +272,9 @@ fragments
 #>extra baobab
 #>extra gnome-builder
 #>extra gnome-code-assistance
+#>extra gimp
+#>extra pitivi
+#>extra audacity
 #-----------=>games
 >extra aisleriot
 >extra gnuchess
