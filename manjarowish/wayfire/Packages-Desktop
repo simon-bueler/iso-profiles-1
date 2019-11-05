@@ -57,7 +57,7 @@ openssh
 openssl
 openresolv
 openvpn
-openconnect
+>extra openconnect
 pptpclient
 wpa_supplicant
 #iwd
