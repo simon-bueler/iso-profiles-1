@@ -57,7 +57,7 @@ openssh
 openssl
 openresolv
 openvpn
->extra openconnect
+#>extra openconnect
 pptpclient
 wpa_supplicant
 #iwd
@@ -191,7 +191,6 @@ lollypop
 totem
 fragments
 >basic epiphany
->extra firewalld
 >extra firefox
 >extra xdman
 >extra flashplugin
