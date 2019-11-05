@@ -4,7 +4,7 @@ wayfire-default-settings
 manjaro-alsa
 manjaro-pulse
 pavucontrol
-pulseaudio-equalizer-ladspa
+>extra pulseaudio-equalizer-ladspa
 pulseaudio-alsa
 pulseaudio-modules-bt-git
 libldac
@@ -27,11 +27,11 @@ gst-plugins-ugly
 #---------=> fonts
 freetype2
 noto-fonts
-terminus-font
-powerline-fonts
-ttf-liberation
-ttf-indic-otf
-ttf-lohit-fonts
+>extra terminus-font
+>extra powerline-fonts
+>extra ttf-liberation
+>extra ttf-indic-otf
+>extra ttf-lohit-fonts
 #---------+> input and gesture support
 #xf86-input-synaptics
 xf86-input-elographics
@@ -39,10 +39,11 @@ xf86-input-evdev
 xf86-input-keyboard
 xf86-input-mouse
 xf86-input-void
-xf86-input-joystick
+xf86-input-libinput
 xf86-input-mtrack
 xf86-input-wacom
-xf86-input-libinput
+>extra xf86-input-joystick
+
 evdev-right-click-emulation
 >extra libinput-gestures
 >extra gestures
@@ -150,7 +151,21 @@ xdg-utils
 xdg-su
 grub-btrfs
 timeshift-autosnap
+>extra linuxconsole
 #accountsservice
+systemd-guest-user
+#---------=> developement packages
+>extra base-devel
+>extra linux-tools
+>extra extra-cmake-modules
+>extra meson
+>extra ninja
+#---------=> improve responsiveness 
+systemd-swap
+preload
+irqbalance
+nohang-git
+kernel-alive
 #---------=> android and file transfer management
 android-tools
 android-udev
@@ -174,6 +189,7 @@ evince
 gnome-terminal-fedora
 lollypop
 totem
+fragments
 >basic epiphany
 >extra gufw
 >extra firefox
@@ -226,7 +242,6 @@ totem
 >extra colord-sane
 >extra gedit-plugins
 >extra cheese
->extra fragments
 >extra remmina
 >extra freerdp
 >extra guiscrcpy
