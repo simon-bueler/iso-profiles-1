@@ -131,7 +131,7 @@ redshift-wlr-gamma-control-git
 egl-wayland
 qt5-wayland
 ydotool-git
-
+flashfocus-git
 #---------=> utilities
 libdvdcss
 dmidecode
@@ -146,6 +146,7 @@ xdg-su
 grub-btrfs
 timeshift-autosnap
 systemd-guest-user
+gnome-keyring
 #---------=> improve responsiveness 
 systemd-swap
 preload
