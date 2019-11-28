@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=mw
+Description=mw bootsplash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/mw
+ScriptFile=/usr/share/plymouth/themes/mw/mw.script

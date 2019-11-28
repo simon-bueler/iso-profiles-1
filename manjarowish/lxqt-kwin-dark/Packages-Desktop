@@ -5,10 +5,16 @@ manjaro-alsa
 manjaro-pulse
 pavucontrol-qt
 pulseaudio-equalizer-ladspa
-pulseaudio-bluetooth
+pulseaudio-alsa
+pulseaudio-modules-bt-git
+libldac
+pulseaudio-ctl
+pulseaudio-jack
 libcanberra
 libcanberra-pulse
 libcanberra-gstreamer 
+fluidsynth
+playerctl
 #------gst plugins
 gst-libav
 gst-plugins-good
@@ -20,18 +26,22 @@ gst-plugins-ugly
 avahi
 openssh
 openssl
-cmst
-connman
-pptpclient
-iwd
-openvpn
-openconnect
 openresolv
-bluedevil
-bluez-cups
+openvpn
+pptpclient
+wpa_supplicant
+connman
+pacrunner
+ofono
+neard
+>extra bluez-cups
 nss-mdns
-#lxqt-connman-applet-git
 usb_modeswitch
+wds
+modem-manager-gui
+#cmst
+cmst
+bluedevil
 #---------=> file management
 lxqt-archiver-git
 #------opt deps for archiver
@@ -59,11 +69,11 @@ gvfs-goa
 freetype2
 noto-fonts               # default font
 terminus-font
-powerline-fonts
 >extra noto-fonts-emoji
-ttf-indic-otf
-ttf-liberation
->extra ttf-opensans
+>extra powerline-fonts
+>extra ttf-liberation
+>extra ttf-indic-otf
+>extra ttf-lohit-fonts
 # improve responsiveness 
 systemd-swap
 preload
@@ -79,12 +89,8 @@ xdg-utils
 #>extra extra-cmake-modules
 #---------=> utilities
 qlipper
->extra bolt
->extra fprint
->extra busybox
 libdvdcss
 dmidecode
-linux-tools
 htop
 inxi
 numlockx
@@ -112,8 +118,6 @@ manjaro-settings-manager-knotifier
 manjaro-zsh-config
 manjaro-hotfixes
 manjaro-base-skel
-manjaro-application-utility
-manjaro-hello
 manjaro-settings-samba
 manjaro-printer
 skanlite
@@ -121,7 +125,7 @@ skanlite
 sddm
 sddm-kcm
 qt5-virtualkeyboard
-sddm-theme-sugar-candy-git
+sddm-theme-matcha
 #---------=> kwin window manager
 kwin
 kde-cli-tools
@@ -158,16 +162,20 @@ oxygen-icons
 mojave-gtk-theme-git
 gtk-engine-murrine
 gtk3
+#---------+> input and gesture support
+#xf86-input-synaptics
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
 xf86-input-mouse
 xf86-input-void
-xf86-input-synaptics
-xf86-input-wacom
 xf86-input-libinput
-libinput-gestures
-gestures
+xf86-input-mtrack
+xf86-input-wacom
+>extra xf86-input-joystick
+evdev-right-click-emulation
+>extra libinput-gestures
+>extra gestures
 qt5-translations
 #---------=> xorg
 xorg-server
@@ -179,6 +187,7 @@ feathernotes-git
 featherpad-git
 pamac-gtk
 pamac-tray-appindicator
+mntray
 qpdfview
 simplescreenrecorder
 qmmp
@@ -193,7 +202,7 @@ keepassxc
 kdeconnect
 sshfs
 qvkbd
-plank
+ksmoothdock
 gamemode
 systemdgenie
 modem-manager-gui
@@ -216,11 +225,8 @@ fancontrol-gui-git
 >extra firefox-dark-reader
 >extra firefox-extension-google-search-link-fix
 >extra firefox-extension-keepassxc-browser
->extra firefox-extension-video-download-helper
->extra vdhcoapp
 >extra xdman
 >extra firefox-extension-xdm-browser-monitor
-
 ###opt-deps 
 >extra argyllcms
 >extra colord-sane

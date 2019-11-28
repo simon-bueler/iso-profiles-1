@@ -1,0 +1,8 @@
+NAME="ManjaroWish Linux"
+ID=ManjaroWish
+ID_LIKE=arch
+PRETTY_NAME="ManjaroWish Linux"
+ANSI_COLOR="1;32"
+HOME_URL="https://manjaro.org/"
+SUPPORT_URL="https://manjaro.org/"
+BUG_REPORT_URL="https://github.com/librewish/iso-profies/issues/"

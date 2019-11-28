@@ -1,29 +1,47 @@
+#-------------------------------------------------
 #### EDITION BASE PACKAGES
 wayfire-default-settings
 #---------=> audio
-manjaro-alsa
-manjaro-pulse
-pavucontrol
->extra pulseaudio-equalizer-ladspa
-pulseaudio-alsa
-pulseaudio-modules-bt-git
+alsa-firmware
+alsa-utils
+alsa-lib
+>multilib lib32-alsa-lib
+>multilib lib32-alsa-plugins
+>multilib lib32-libpulse
+libcanberra
+>multilib lib32-libcanberra
+libcanberra-pulse
+>multilib lib32-libcanberra-pulse
+libcanberra-gstreamer
 libldac
+fluidsynth
+>multilib lib32-fluidsynth
+playerctl
+pulseaudio-alsa
 pulseaudio-ctl
 pulseaudio-jack
-libcanberra
-libcanberra-pulse
-libcanberra-gstreamer 
-fluidsynth
-playerctl
-#---------=> video
+pulseaudio-zeroconf
+pavucontrol
+pulseaudio-equalizer-ladspa
+pulseaudio-modules-bt-git
+####video
+
+ffmpeg
 gst-libav
-gst-plugins-good
-gst-plugins-base
 gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
 gst-plugins-ugly
-#>extra libva-vdpau-driver
-#>extra libva-intel-driver
-#>extra libva-mesa-driver
+gst-plugins-espeak
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+
 #---------=> fonts
 freetype2
 noto-fonts
@@ -33,20 +51,11 @@ noto-fonts
 >extra ttf-indic-otf
 >extra ttf-lohit-fonts
 #---------+> input and gesture support
-#xf86-input-synaptics
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-keyboard
-xf86-input-mouse
-xf86-input-void
-xf86-input-libinput
-xf86-input-mtrack
-xf86-input-wacom
->extra xf86-input-joystick
 
+####input
 evdev-right-click-emulation
->extra libinput-gestures
->extra gestures
+libinput-gestures
+gestures
 #---------=> xorg
 xorg-server-xwayland 
 xorg-xhost
@@ -57,31 +66,29 @@ openssh
 openssl
 openresolv
 openvpn
-#>extra openconnect
+openconnect
 pptpclient
 wpa_supplicant
-#iwd
-connman
+#connman
 pacrunner
 ofono
-neard
->extra bluez-cups
 nss-mdns
 usb_modeswitch
 wds
+mobile-broadband-provider-info
 modem-manager-gui
-cmst
+#cmst
 blueberry
-
+connman-gtk-git
+ebtables
+#firewalld  #requires networkmanager
 #---------=> settings manager
 manjaro-settings-manager
+#manjaro-settings-manager-notifier
 manjaro-zsh-config
 manjaro-hotfixes
 manjaro-base-skel
->extra manjaro-settings-samba
->extra manjaro-printer
->extra simple-scan
-
+#mntray
 #---------=> edition theming and settings
 grub-theme-manjaro
 kvantum-qt5
@@ -92,14 +99,9 @@ xcursor-breeze
 papirus-maia-icon-theme
 matcha-gtk-theme
 kvantum-theme-matchama
-
+dconf-editor
 #--------=> package management
 pamac-gtk
-#appimagelauncher
-#bauh
-#snapd
-#flatpak
-#fwupd
 #pamac-snap-plugin 
 #---------=> display manager and theme
 sddm
@@ -107,21 +109,20 @@ sddm-theme-matcha
 qt5-virtualkeyboard
 #---------=> WayfireWM
 wayfire
-wf-config
+wf-config-git
 wlroots
-wayfire-plugins-extra
-wcm
+wayfire-plugins-extra-git
+wcm-git
 wf-recorder-git
 wf-osk-git
-wf-shell
-gtk-layer-shell
-
-
+wf-shell-git
+gtk-layer-shell-git
 
 #-----------=> wayland support
 clipman
 wofi-hg
 bemenu-dmenu
+wl-clipboard-x11
 grim
 slurp
 mako
@@ -133,12 +134,9 @@ brightnessctl
 redshift-wlr-gamma-control-git
 egl-wayland
 qt5-wayland
-
+ydotool-git
 
 #---------=> utilities
-#>extra bolt
-#>extra fprint
-#>extra fingerprint-gui
 libdvdcss
 dmidecode
 inxi
@@ -151,36 +149,29 @@ xdg-utils
 xdg-su
 grub-btrfs
 timeshift-autosnap
->extra linuxconsole
-#accountsservice
 systemd-guest-user
-#---------=> developement packages
->extra base-devel
->extra linux-tools
->extra extra-cmake-modules
->extra meson
->extra ninja
 #---------=> improve responsiveness 
 systemd-swap
 preload
 irqbalance
 nohang-git
+ananicy-git
 kernel-alive
 #---------=> android and file transfer management
 android-tools
 android-udev
-
 ###opt-deps 
 gvfs
 gvfs-mtp
 gvfs-afc
 >extra gvfs-gphoto2
 >extra gvfs-goa
+>extra gvfs-google
 >extra gvfs-nfs
 >extra gvfs-smb
->extra gvfs-google
-
 #---------=> applications
+plymouth-git
+>basic epiphany
 gedit
 nautilus
 file-roller
@@ -189,11 +180,52 @@ evince
 gnome-terminal-fedora
 lollypop
 totem
-fragments
->basic epiphany
->extra firefox
+qbittorrent
+unrar
+unace
+p7zip
+poppler-data
+nautilus-admin
+nautilus-empty-file
+#filemanager-actions
+>extra nautilus-bluetooth
+>extra nautilus-image-converter
+>extra nautilus-sendto
+>extra nautilus-share
+>extra eog-plugins
+>extra gedit-plugins
+>extra grilo-plugins
+sushi
+ffmpegthumbnailer
+gnome-disk-utility
+gnome-calculator
+gnome-sound-recorder
+gnome-logs
+shortwave
+cheese
+stacer
+imagewriter
+>extra gespeaker
+>extra gydl-git
+>extra youtube-dl
+>extra meld
+>extra remmina
+>extra freerdp
+>extra guiscrcpy
+>extra lanshare
+>extra gnome-notes
+>extra gnome-todo
+>extra gnome-clocks
+>extra gnome-weather
+>extra gnome-maps
+>extra seahorse-nautilus
+>extra gtkhash-nautilus
+>extra obs-studio
+>extra wlrobs-hg
 >extra xdman
+>extra keepassxc
 >extra flashplugin
+>extra firefox
 >extra firefox-extension-https-everywhere 
 >extra firefox-decentraleyes
 >extra firefox-extension-privacybadger 
@@ -201,86 +233,12 @@ fragments
 >extra firefox-dark-reader
 >extra firefox-extension-google-search-link-fix
 >extra firefox-extension-xdm-browser-monitor
->extra nautilus-bluetooth
->extra nautilus-empty-file
->extra nautilus-image-converter
->extra nautilus-sendto
->extra nautilus-share
->extra nautilus-admin
->extra gnome-contacts
->extra gnome-clocks
->extra gnome-calculator
->extra gnome-boxes
->extra gnome-passwordsafe
->extra gnome-weather
->extra gnome-maps
->extra gnome-todo
->extra gnome-notes
->extra gnome-sound-recorder
->extra gnome-disk-utility
->extra gnome-music
->extra gnome-photos
->extra gnome-books
->extra gnome-dictionary
->extra gnome-documents
->extra gnome-power-manager
->extra gnome-user-share
->extra gnome-color-manager
->extra gnome-nettool
->extra gnome-podcasts
->extra gnome-logs
->extra drawing
->extra evolution
->extra shortwave
->extra eog-plugins
->extra grilo-plugins
->extra unrar
->extra unace
->extra p7zip
->extra poppler-data
->extra colord-sane
->extra gedit-plugins
->extra cheese
->extra remmina
->extra freerdp
->extra guiscrcpy
->extra lanshare
->extra calls
->extra purism-chatty
->extra stacer
->extra transmageddon
->extra gydl-git
->extra youtube-dl
->extra imagewriter
->extra obs-studio
->extra wlrobs-hg
+>extra firefox-extension-keepassxc-browser
 >extra libreoffice-fresh
 >extra libmythes
->extra net-tools
->extra argyllcms
->extra brasero
->extra gcolor3
->extra meld
-#>extra gnomecast
-#>extra nautilus-terminal
-#>extra kodi-wayland
-#>extra gnome-calendar
-#>extra kdeconnect
-#>extra sshfs
-#>extra buoh
-#>extra baobab
-#>extra gnome-builder
-#>extra gnome-code-assistance
-#>extra gimp
-#>extra pitivi
-#>extra audacity
-#-----------=>games
->extra aisleriot
->extra gnuchess
->extra quadrapassel
->extra gnome-chess
->extra gnome-mahjongg
->extra gnome-klotski
->extra gnome-mines
->extra gnome-nibbles
-
+>extra evolution
+>extra manjaro-settings-samba
+>extra manjaro-printer
+>extra simple-scan
+>extra bluez-cups
+>extra gufw
