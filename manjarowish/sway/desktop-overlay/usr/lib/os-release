@@ -1,8 +1,8 @@
-NAME="Wayfire Linux"
-ID=Wayfire
+NAME="Sway Linux"
+ID=Sway
 ID_LIKE=arch
-PRETTY_NAME="Wayfire Linux"
+PRETTY_NAME="Sway Linux"
 ANSI_COLOR="1;32"
-HOME_URL="https://wayfire.org/"
-SUPPORT_URL="https://wayfire.org/"
-BUG_REPORT_URL="https://github.com/WayfireWM/wayfire/issues/"
+HOME_URL="https://Swaywm.org/"
+SUPPORT_URL="https://Swaywm.org/"
+BUG_REPORT_URL="https://github.com/SwayWM/Sway/issues/"

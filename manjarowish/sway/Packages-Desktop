@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #### EDITION BASE PACKAGES
-sway-default-settings
+#sway-default-settings
 #---------=> audio
 alsa-firmware
 alsa-utils

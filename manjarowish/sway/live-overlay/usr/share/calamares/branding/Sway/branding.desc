@@ -1,5 +1,5 @@
 ---
-componentName:  Wayfire
+componentName:  Sway
 
 # This selects between different welcome texts. When false, uses
 # the traditional 'Welcome to the %1 installer.', and when true,
@@ -41,13 +41,13 @@ windowSize: 800px,520px
 # bootloaderEntryName is how this installation / distro is named
 # in the boot loader (e.g. in the GRUB menu).
 strings:
-    productName:         Wayfire Linux
-    shortProductName:    Wayfire
+    productName:         Sway Linux
+    shortProductName:    Sway
     version:             Rolling
     shortVersion:        Rolling
-    versionedName:       Wayfire Linux Rolling "by_Librewish"
-    shortVersionedName:  Wayfire Rolling
-    bootloaderEntryName: Wayfire
+    versionedName:       Sway Linux Rolling "by_Librewish"
+    shortVersionedName:  Sway Rolling
+    bootloaderEntryName: Sway
 
 # These images are loaded from the branding module directory.
 #

@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=sway
+Description=sway bootsplash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/sway
+ScriptFile=/usr/share/plymouth/themes/sway/sway.script
